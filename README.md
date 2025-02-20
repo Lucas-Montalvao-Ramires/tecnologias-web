@@ -40,4 +40,8 @@ npm run build
 8. Pré-visualizar a Aplicação no Vite
 ```shell
 npm run preview
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> ea76867 (Update README.md)
