@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Aplicação React - Cadastro de Usuários
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto, referente à "Pratica presencial Unidades 3 e 4", foi desenvolvido por **Lucas Montalvão Ramires**, matrícula **2322130043**, como parte da disciplina **Tecnologias Web**.
 
-## Available Scripts
+A aplicação tem como objetivo demonstrar a criação de uma aplicação web com **React**, utilizando os conceitos de:
 
-In the project directory, you can run:
+- Componentização
+- Estado global com **Context API**
+- Integração com **API REST** (via `json-server`)
+- Estilização e **responsividade**
+- Validação de formulários
+- Navegação com React Router
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📸 Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Tela inicial com **listagem de usuários cadastrados**
+- Página de **cadastro de usuários** com formulário validado
+- Armazenamento dos dados em **API REST local (json-server)**
+- Navegação entre as rotas com React Router DOM
+- Layout limpo e responsivo com CSS puro
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tecnologias Utilizadas
 
-### `npm run build`
+- React
+- React Router DOM
+- Context API
+- Axios
+- JSON Server
+- CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Como Executar o Projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1. Clone o repositório
 
-### `npm run eject`
+```bash
+git clone https://github.com/SEU-USUARIO/tecnologias-web.git
+cd tecnologias-web
+git checkout main
+cd meu-projeto-web
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+obs.: Substitua SEU-USUARIO pelo seu nome de usuário do GitHub
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Instale as dependências
+```bash
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Inicie a API REST local (json-server)
+```bash
+npm run api
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+A API estará disponível em:
+http://localhost:3001/usuarios
 
-## Learn More
+4. Em outro terminal, execute a aplicação React
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+A aplicação abrirá em:
+http://localhost:3000
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📁 Estrutura do Projeto
+```bash
+meu-projeto-web/
+  ├── public/
+  ├── src/
+  │   ├── components/
+  │   ├── context/
+  │   ├── pages/
+  │   ├── services/
+  │   └── styles/
+  ├── db.json
+  ├── package.json
+  ├── README.md
 
-### Code Splitting
+👤 Autor
+Lucas Montalvão Ramires
+Matrícula: 2322130043
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🔗 Link direto para o projeto no GitHub
+https://github.com/SEU-USUARIO/tecnologias-web/tree/develop/meu-projeto-web
 
-### Analyzing the Bundle Size
+obs.: Substitua SEU-USUARIO pelo seu nome de usuário do GitHub
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
